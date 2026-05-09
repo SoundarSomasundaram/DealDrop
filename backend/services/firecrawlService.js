@@ -1,4 +1,4 @@
-const FirecrawlApp = require("@mendable/firecrawl-js").default;
+const FirecrawlApp = require("@mendable/firecrawl-js").FirecrawlAppV1;
 
 const firecrawl = new FirecrawlApp({
   apiKey: process.env.FIRECRAWL_API_KEY,
